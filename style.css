@@ -11,6 +11,9 @@
     box-sizing: border-box;
 }
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--light-gray);
     height: 100vh;
 }
@@ -18,16 +21,22 @@ h1, p {
     font-family: 'Outfit', sans-serif;
 }
 h1 {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    text-align: center;
+    padding-top: 1rem;
 }
 p {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    color: var(--grayish-blue);
+    padding: 1rem 0.7rem;
+    text-align: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    margin: 4.5rem auto;
+    /* margin: 4.5rem auto; */
     width: 16rem;
     height: 25rem;
     padding: 0.8rem;

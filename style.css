@@ -36,7 +36,6 @@ p {
 .card {
     display: flex;
     flex-direction: column;
-    /* margin: 4.5rem auto; */
     width: 16rem;
     height: 25rem;
     padding: 0.8rem;
